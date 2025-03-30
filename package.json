@@ -1,0 +1,16 @@
+{
+  "name": "craftish-bin-v2",
+  "version": "1.0.0",
+  "description": "craftish binaries",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron .",
+    "make": "npx electron-packager --platform linux,win32 --arch x64,arm64 .",
+    "make-mac": "npx electron-packager --platform darwin --arch x64,arm64 ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.1.2"
+  }
+}
